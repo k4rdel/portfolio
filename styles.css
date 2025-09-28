@@ -18,12 +18,12 @@ nav{
 
 .logo{
     z-index: 999;
-    width: 45px;
+    width: 50px;
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 5px;
+    left: 5px;
     transition: 0.7s;
-    padding: 5px;
+    padding: 3px;
     border-radius: 10px;
 }
 
@@ -48,7 +48,7 @@ nav{
 }
 
 .landing-page{
-    margin-top: 20%
+    margin-top: 25vh;
 }
 
 .landing-page-text{
@@ -67,7 +67,31 @@ nav{
 
 .landing-page-img{
     float: right;
-    width: 35%;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 425px) {
+    .landing-page{
+        margin-top: 15vh;
+    }
+    .landing-page-img{
+        float: none;
+    }
+    .landing-page-text{
+        margin-top: 5px;
+        align-items: center;
+    }
+    .nav-span{
+        float: right;
+        padding: 5px 7.5px;
+        letter-spacing: 1.1px;
+        transition: 0.7s;
+        font-size: 13px;
+    }
 }
 
 .landing-page-btn{

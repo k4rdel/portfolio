@@ -8,17 +8,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
     <div class="container-fluid p-2">
-        <a href="https://www.sodel.pl"><img class="logo" src="logo.png" alt="Logo"></a>
-        <nav class="navbar navbar-expand-sm">
-            <div class="position-relative w-100 d-flex align-items-center">
-                <div class="mx-auto">
-                    <ul class="navbar-nav flex-row">
-                        <li class="nav-item"><a class="nav-link" href="http://"><span class="nav-span">ABOUT</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="http://"><span class="nav-span">PROJECTS</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="http://"><span class="nav-span">CONTACT</span></a></li>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://www.sodel.pl">
+                    <img class="logo img-fluid" src="logo.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center " id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-span">ABOUT</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-span">PROJECTS</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="nav-span">CONTACT</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -26,12 +32,12 @@
     </div>
     <div class="container">
         <div class="row landing-page">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <img class="landing-page-img" src="me.png" alt="Me">
             </div>
-            <div class="col-6 landing-page-text">
+            <div class="col-12 col-md-6 landing-page-text">
                 <h1>Oskar Sodel</h1>
-                <p>Developing web applications developer</p>
+                <p>Developing web applications</p>
                 <a class="btn landing-page-btn" href="#">Read about me</a>
             </div>
         </div>
@@ -40,8 +46,8 @@
         <div class="container-fluid p-2">
             <nav class="footer-nav">
                 <a href="mailto:sodeloskar22@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                <a href="https://github.com/k4rdel/" target="_blank"><i class="bi bi-github"></i></i></a>
-                <a href="https://www.linkedin.com/in/oskar-sodel-80b363299/" target="_blank"><i class="bi bi-linkedin"></i></i></a>
+                <a href="https://github.com/k4rdel/" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/oskar-sodel-80b363299/" target="_blank"><i class="bi bi-linkedin"></i></a>
             </nav>
         </div>
     </footer>
