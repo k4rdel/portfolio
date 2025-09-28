@@ -76,7 +76,7 @@ nav{
 
 @media only screen and (max-width: 425px) {
     .landing-page{
-        margin-top: 15vh;
+        margin-top: 10vh;
     }
     .landing-page-img{
         float: none;
