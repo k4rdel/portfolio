@@ -47,6 +47,12 @@ nav{
     transition: 0.7s;
 }
 
+.nav-span:active{
+    color: white;
+    background-color: #1f1f27;
+    transition: 0.7s;
+}
+
 .landing-page{
     margin-top: 25vh;
 }
