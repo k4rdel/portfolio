@@ -143,3 +143,12 @@ footer a:hover{
     justify-content: center;
     gap: 30px;
 }
+
+
+/* projeact.html */
+
+.projects{
+    text-align: left;
+    margin-top: 4rem;
+    width: 40vw;
+}
