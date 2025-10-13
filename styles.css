@@ -149,14 +149,54 @@ footer a:hover{
 
 .projects{
     text-align: left;
-    margin-top: 4rem;
-    width: 40vw;
+    margin-top: 4rem;s
+}
+
+.gradient-text{
+    background: linear-gradient(90deg, rgba(42,123,155,1) 0%, rgba(87,199,133,1) 50%, rgba(237,221,83,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 5rem;
 }
 
 .project{
-    background-color: rgb(54, 54, 54);
+    padding: 2rem;
+    background-color: #131318;
+    width: 29rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0a0a0c;
+    margin-right: 2rem;
 }
 
 .project img{
-    width: 10rem;
+    width: 25rem;
+    height: 13rem;
+    border-radius: 10px;
+}
+
+.project p{
+    color: #ababcc;
+    font-size: 0.9rem;
+}
+
+.button{
+    background-color: #22222c;
+    color: white;
+    font-weight: bold;
+    transition: 1;
+    font-size: 1.2rem;
+}
+
+.button:hover{
+    border: 1px solid #ababcc;
+    background-color: #131318;
+    color: #ababcc;
+    transition: 1;
 }
